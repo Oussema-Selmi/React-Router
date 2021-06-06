@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+
+.MovieList{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    row-gap: 50px;
+    
+}
+
+
+.MovieCard:hover {
+background-color: gray;
+transition-duration: 0.5s;
+transform: scale(1.05);
+}
+
+.ratefilter{
+    margin-right: 30%;
+    font-size: 50px;
+
+}
+
+.d-flex {
+    margin-right: 75px;
+}
+
+
+.MovieAbouts {
+    text-align: center;
+    background: linear-gradient(to left, #8942a8 , #ba382f);
+}
+
+.description {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.moviename {
+    margin-top: 50px;
+}
+
